@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pressa</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="bg-primary">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container">
+                    <a class="navbar-brand" href="#"><img src="./images/Pressa.svg" alt="..."></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex ms-auto" role="search">
+                            <input class="form-control me-0" type="search" placeholder="izlash" aria-label="Search">
+                          </form>
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">Biz haqimizda</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Savol va javoblar</a>
+                        </li>
+                        <li class="nav-item">
+                          <button type="button" class="btn btn-warning">+E’lon berish</button>
+                        </li>
+                      </ul>
+                    </div>
+            </div>
+          </nav>
+          <div class="container main-center">
+            <div class="main">
+                <h1 class="text-white">Eng so’ngi master klasslar va tadbirlar bizning saytda</h1>
+            </div>
+          </div>
+          <div class="container text-center">
+            <form
+              class="header-send row align-items-start"
+              action="https://echo.htmlacademy.ru/"
+              method="POST"
+            >
+              <div class="col d-flex align-items-center gap-2 pt-4 pb-4 ps-5">
+                <img src="./images/calendar.svg" alt="Calendar" />
+                <input
+                  type="date"
+                  name="date"
+                  value="22/02/2023"
+                  class="border-0"
+                />
+              </div>
+              <div class="col d-flex align-items-center gap-2 pt-4 pb-4">
+                <img src="./images/calendar.svg" alt="Bo'lim tanlang" /><select
+                  name="Bolim"
+                  class="border-0"
+                >
+                  <option value="Bo’lim tanlang">Bo’lim tanlang</option>
+                  <option value="Tadbirkor">Tadbirkor</option>
+                  <option value="Grafik dizay">Grafik dizay</option>
+                  <option value="Biznes">Biznes</option>
+                  <option value="UI/UX design">UI/UX design</option>
+                </select>
+              </div>
+              <div class="col d-flex align-items-center gap-2 pt-4 pb-4">
+                <img src="./images/calendar.svg" alt="Online yoki offline" />
+                <select name="online&offline" class="border-0">
+                  <option value="Online / Offline">Online / Offline</option>
+                  <option value="Online">Online</option>
+                  <option value="Offline">Offline</option>
+                </select>
+              </div>
+              <div class="col d-flex align-items-center gap-2 pt-4 pb-4">
+                <img src="./images/calendar.svg" alt="User" />
+                <select name="user" class="border-0">
+                  <option value="Ism familya">Ism familya</option>
+                  <option value="Alisher Isaev">Alisher Isaev</option>
+                  <option value="MuhammadAli Eshonqulov">
+                    MuhammadAli Eshonqulov
+                  </option>
+                  <option value="Sadoqat Kaziyeva">Sadoqat Kaziyeva</option>
+                </select>
+              </div>
+              <div class="col d-flex align-items-center gap-2 pt-4 pb-4 bg-primary">
+                <button class="btn " type="submit">
+                  Izlash
+                </button>
+              </div>
+            </form>
+          </div>
+    </header>
+    <section>
+      <div class="container">
+        <h2 class="card-title">Oxirgi e’lonlar</h2>
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev.png" alt="..."></div>
+          <div class="col-lg-4 col-md-6 col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev2.png" alt="..."></div>
+          <div class="col-lg-4 col-md-6 mt-md-3 mt-lg-0 mt-sm-0 col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev3.png" alt="..."></div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev4.png" alt="..."></div>
+          <div class="col-lg-4 col-md-6 col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev2.png" alt="..."></div>
+          <div class="col-lg-4 col-md-6 mt-md-3 mt-lg-0 mt-sm-0  col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev.png" alt="..."></div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev.png" alt="..."></div>
+          <div class="col-lg-4 col-md-6 col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev2.png" alt="..."></div>
+          <div class="col-lg-4 col-md-6 mt-md-3 mt-lg-0 mt-sm-0  col-sm-12"><img class="img-fluid" src="./images/Alisher-Isaev3.png" alt="..."></div>
+        </div>
+      </div>
+      
+      <div class="btn-wrap">
+        <button type="button" class="btn btn-primary">Ko’proq ko’rish</button>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
